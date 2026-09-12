@@ -17,3 +17,21 @@ nav{display:flex;gap:30px;font-size:12px;text-transform:uppercase;letter-spacing
 footer{border-top:1px solid var(--line);max-width:var(--max);margin:auto;padding:35px 28px 45px;display:flex;justify-content:space-between;align-items:center;color:#5e7283;font-size:9px;letter-spacing:.1em}footer .brand{color:#dbe7ee;font-size:12px}footer p{margin:0}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:none}
 @keyframes spin{to{transform:rotate(360deg)}}@media(max-width:900px){nav,.header-cta{display:none}.menu{display:block}.menu span{display:block;width:23px;height:1px;background:#dce9ef;margin:6px}.hero{padding-top:150px}.hero-copy{width:100%}.orbital-art{opacity:.3;right:-230px}.platform-grid{grid-template-columns:1fr 1fr}.feature-card.large{grid-row:auto;min-height:350px}.feature-card.wide{grid-column:1/3}.systems{grid-template-columns:1fr;gap:45px}.systems-visual{height:400px}.about{grid-template-columns:1fr}.about-number{display:none}.section-head{display:block}.section-head>p{margin-top:25px}.globe{width:75vw;height:75vw}}@media(max-width:600px){.section{padding:90px 20px}.hero{padding:135px 20px 60px}.hero h1{font-size:53px}.hero-lead{font-size:14px}.hero-footer{left:20px;right:20px}.hero-footer span:nth-child(2){display:none}.platform-grid{grid-template-columns:1fr}.feature-card.large,.feature-card.wide{grid-column:auto;min-height:330px}.feature-card.wide{display:block}.defence-rings{display:none}.domain{grid-template-columns:42px 1fr 20px}.domain h3{font-size:18px}.domain p{line-height:1.5}.systems-visual{height:330px}.stats{gap:25px}.stats strong{font-size:34px}.contact-card{padding:55px 25px}.contact-meta{display:block;line-height:2.2}.contact-meta span{display:block}footer{display:block;padding:30px 20px}footer p{margin:20px 0}.orbital-art{width:500px;height:500px;right:-290px}}
+
+/* NEXAORA supplied transparent logo assets - FIXED INSTALLER */
+.brand-logo{
+  display:block;
+  width:190px;
+  height:auto;
+  max-height:58px;
+  object-fit:contain;
+  object-position:left center;
+  flex:none;
+}
+.brand-logo-on-dark{content:url("../images/nexaora-logo-on-dark.png");}
+.brand-logo-on-light{content:url("../images/nexaora-logo-on-light.png");}
+footer .brand-logo{width:180px;max-height:54px;}
+@media(max-width:900px){
+  .brand-logo{width:175px;max-height:54px;}
+  footer .brand-logo{width:165px;max-height:50px;}
+}
