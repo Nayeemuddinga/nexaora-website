@@ -27,4 +27,3 @@ Recommended production additions:
 4. Add privacy policy, terms, and security/contact pages.
 5. Configure HTTPS, DNS and security headers.
 6. Add analytics only after reviewing privacy requirements.
-# nexaora-website
