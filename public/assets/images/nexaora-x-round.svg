@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NEXAORA X</title>
+  <desc id="desc">NEXAORA circular X mark in cyan and white on black</desc>
+  <defs>
+    <linearGradient id="cyan" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b8f2"/>
+      <stop offset="1" stop-color="#19c8ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="252" fill="#05070b"/>
+  <circle cx="256" cy="256" r="232" fill="none" stroke="url(#cyan)" stroke-width="9" filter="url(#glow)"/>
+  <path d="M126 390 L177 390 L386 122 L335 122 Z" fill="url(#cyan)"/>
+  <path d="M137 122 L207 122 L239 163 L190 213 Z" fill="#f4f9ff"/>
+  <path d="M273 299 L322 250 L375 390 L305 390 Z" fill="#f4f9ff"/>
+</svg>
